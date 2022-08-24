@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/minecraft-icone-icon.png" type="image/x-icon">
+    <title>Minecraft</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">ENTRAR</a></li>
+                <li><a href="">REGATAR</a></li>
+            </ul>
+
+            <div class="nav-conteiner">
+                <img src=".//img/Minecraft-Logo.png">
+    
+                    <ul>
+                        <li><a href="" id="game" onmousemove="mvg()" ><img id="g" src=".//img/menu-buy--reversed.gif"> GAMES</a></li>
+                        <li><a href="" onmousemove="mvc()"><img id="c" src=".//img/community.png">COMMUNITY</a></li>
+                        <li><a href=""onmousemove="mvm()"><img id="m" src=".//img/bau.webp">MERCH</a></li>
+                        <li><a href=""onmousemove="mvs()"><img id="s" src=".//img/golem.webp">SUPPORT</a></li>
+                    </ul>
+            </div>    
+        </nav>
+    </header>
+
+    <main>
+        <div class="principal">
+            <div class="fundo">
+                <div class="bloco-principal">
+                    <h1>BEM-VINDO AO MINECRAFT</h1>
+                    <p>Com novos jogos, novas atualizações e novas formas de jogar, junte-se a uma das maiores comunidades de jogos e comece a criar hoje!</p>
+                    <a href="">OBTER O MINECRAFT</a>
+                </div>
+        
+                <div class="bloco-secundario">
+                    <p>SIGA O MINECRAFT</p>
+                    <ul>
+                        <li class="instagram"><img src=".//img/pixel-instagram.svg"></img></li>
+                        <li class="twitter"><img src=".//img/pixel-twitter.svg"></img></li>
+                        <li class="youtube"><img src=".//img/pixel-youtube.svg"></img></li>
+                        <li class="facebook"><img src=".//img/pixel-facebook.svg"></img></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="secundaria">
+            <p>* A oferta está disponível somente para novos assinantes</p><br>
+            <p>O recurso de jogo multiplataforma está disponível para Xbox One, Playstation 4, Nintendo Switch, iOS, Android e Windows 10. Para desfrutar desse recurso para jogos online no modo multijogador entre plataformas diferentes, é necessário: ter uma conta Microsoft, ter assinatura do Xbox Live Gold para Xbox One, ser membro do PlayStation Plus para Playstation 4 e membro do Nintendo Switch Online para Nintendo Switch.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-p">
+            <div class="bloco-marca">
+                <div class="marca">
+                    <img src="img/Mojang.webp">
+                    <img class="xbox" src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/xbox-logo/xboxgamestudio.svg">
+                </div>
+
+                <img class="e" src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/svg/esrb_2021.svg">
+            </div>
+
+            <div class="links">
+                <p><a href="/">Mojang</a>&copy;2009-2022. "Minecraft" é uma marca registrada de Mojang AB</p>
+
+                <p class="termos">
+                <a class="t" href="/">Termos e Condições</a>
+                <a href="/">Orientações de Marca e Ativos</a>
+                <a class="m" href="/">Manage Consent</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-f">
+            <a href="/"><img class="pt" src="img/globe.svg"> Português Brasileiro</a>
+
+            <p>
+                <a href="/">Privacy and cookies</a>
+                <a href="/">Terms of use</a>
+                <a href="/">Trademarks</a>
+                <a href="/">About our ads</a>
+                <a href="/">About our ads</a>
+                <a href="/">&copy; Microsoft</a>
+            </p>
+
+            <a href="/"><img class="pt" src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/svg/microsoft.svg"></a>
+        </div>
+    </footer>
+
+    <script>
+        function mvg() {
+            document.getElementById('g').src = 'img/menu-buy--reversed.gif';
+        }
+        function mvc() {
+            document.getElementById('c').src = 'img/community.gif';
+        }
+        function mvm() {
+            document.getElementById('m').src = 'img/bau.webp';
+        }
+        function mvs() {
+            document.getElementById('s').src = 'img/golem.webp';
+        }
+    </script>
+</body>
+</html>
